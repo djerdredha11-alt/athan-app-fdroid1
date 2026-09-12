@@ -1,0 +1,15 @@
+Adhan is a free and open-source Android app for prayer times, Adhan notifications and Qibla direction.
+
+Features:
+• Accurate prayer-time calculations with multiple calculation methods
+• Offline-first astronomical calculation
+• Qibla compass and distance to the Kaaba
+• Local Adhan notifications and alarms
+• Optional custom Adhan audio
+• Manual location selection or device location
+• No ads
+• No analytics or tracking
+• No account required
+• No Google Play Services or Firebase dependency
+
+The app is designed to keep essential prayer-time functionality available without proprietary services.

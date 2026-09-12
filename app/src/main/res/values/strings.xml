@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">أذان</string>
+    <string name="nav_home">المواقيت</string>
+    <string name="nav_qibla">القبلة</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Prayers -->
+    <string name="prayer_fajr">الفجر</string>
+    <string name="prayer_sunrise">الشروق</string>
+    <string name="prayer_dhuhr">الظهر</string>
+    <string name="prayer_asr">العصر</string>
+    <string name="prayer_maghrib">المغرب</string>
+    <string name="prayer_isha">العشاء</string>
+
+    <!-- Home screen -->
+    <string name="next_prayer">الصلاة القادمة</string>
+    <string name="time_remaining">الوقت المتبقي</string>
+    <string name="today">اليوم</string>
+    <string name="yesterday">أمس</string>
+    <string name="tomorrow">غداً</string>
+    <string name="refresh">تحديث</string>
+    <string name="current_location">الموقع الحالي</string>
+    <string name="refresh_success">تم تحديث مواقيت الصلاة</string>
+    <string name="error_location">تعذر تحديد الموقع، يرجى اختيار المدينة يدوياً</string>
+    <string name="source_offline_engine">حساب فلكي دقيق (محلي/دون إنترنت)</string>
+    <string name="source_api_online">مواقيت عبر الإنترنت (Aladhan API)</string>
+
+    <!-- Notification & Alarm -->
+    <string name="notif_channel_adhan">تنبيهات الأذان</string>
+    <string name="notif_channel_adhan_desc">إشعارات وتنبيهات مواقيت الصلاة والأذان</string>
+    <string name="notif_channel_pre_alarm">تذكير قبل الأذان</string>
+    <string name="notif_channel_pre_alarm_desc">تنبيه مسبق قبل دخول وقت الصلاة</string>
+    <string name="adhan_time_title">حان الآن موعد أذان %s</string>
+    <string name="adhan_time_body">حي على الصلاة، حي على الفلاح</string>
+    <string name="pre_adhan_title">اقترب موعد صلاة %s</string>
+    <string name="pre_adhan_body">متبقي %d دقيقة على موعد الأذان</string>
+    <string name="action_stop_adhan">إيقاف الأذان</string>
+
+    <!-- Qibla -->
+    <string name="qibla_title">اتجاه القبلة</string>
+    <string name="qibla_bearing">زاوية القبلة</string>
+    <string name="qibla_distance">المسافة إلى مكة المكرمة</string>
+    <string name="qibla_device_bearing">اتجاه الهاتف</string>
+    <string name="qibla_facing_correct">أنت تتجه الآن نحو القبلة بدقة!</string>
+    <string name="qibla_sensor_warning">يرجى تحريك الهاتف على شكل رقم 8 لمعايرة البوصلة</string>
+    <string name="qibla_no_sensor">هاتفك لا يحتوي على مستشعر بوصلة مغناطيسي، تظهر زاوية القبلة الثابتة بناءً على موقعك</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_calc_method">طريقة الحساب</string>
+    <string name="settings_juristic">المذهب الفقهي (صلاة العصر)</string>
+    <string name="settings_madhab_shafii">الشافعي والمالكي والحنبلي (ظل واحد)</string>
+    <string name="settings_madhab_hanafi">الحنفي (ظلان)</string>
+    <string name="settings_time_format">صيغة عرض الوقت</string>
+    <string name="settings_12h">12 ساعة (ص / م)</string>
+    <string name="settings_24h">24 ساعة</string>
+    <string name="settings_pre_alarm_mins">التنبيه قبل الأذان</string>
+    <string name="settings_minute_adjustments">تعديل الدقائق يدويًا</string>
+    <string name="settings_audio">صوت الأذان والتنبيه</string>
+    <string name="settings_adhan_sound">صوت الأذان</string>
+    <string name="settings_adhan_default">أذان التطبيق المدمج</string>
+    <string name="settings_adhan_custom">اختيار ملف صوتي من الجهاز</string>
+    <string name="settings_adhan_volume">مستوى صوت الأذان</string>
+    <string name="settings_test_sound">تجربة صوت الأذان</string>
+    <string name="settings_location">إعدادات الموقع</string>
+    <string name="settings_use_gps">استخدام GPS تلقائياً</string>
+    <string name="settings_select_city">اختيار مدينة يدويًا</string>
+    <string name="settings_custom_coords">إحداثيات مخصصة</string>
+    <string name="settings_privacy">سياسة الخصوصية</string>
+    <string name="settings_about">حول التطبيق والترخيص</string>
+
+    <!-- Privacy & F-Droid -->
+    <string name="privacy_title">سياسة الخصوصية وحرية البيانات</string>
+    <string name="privacy_body">تطبيق "أذان" هو تطبيق إسلامي حر ومفتوح المصدر بالكامل (F-Droid Ready).\n\n• الخصوصية: لا يحتوي التطبيق على أي إعلانات، ولا تتبع، ولا يطلب تسجيل دخول أو حساب.\n• الموقع الجغرافي: يُستخدم موقعك محليًا فقط على هاتفك لحساب مواقيت الصلاة واتجاه القبلة، ولا يتم رفعه أو تخزينه في أي خادم خارجي مطلقًا.\n• العمل دون اتصال: يعمل التطبيق بالكامل بدون إنترنت اعتمادًا على خوارزميات حساب فلكية دقيقة معتمدة.\n• كود المصدر متاح بموجب رخصة Apache-2.0.</string>
+</resources>

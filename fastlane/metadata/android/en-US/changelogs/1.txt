@@ -1,0 +1,1 @@
+Initial open-source release with prayer times, Qibla direction, local adhan alarms, and offline calculation support.
